@@ -13,7 +13,7 @@ function Header() {
         setPageState("Sign in");
       }
     });
-  }, []);
+  }, [auth]);
   const navigate = useNavigate();
 
   function pathMatchRoute(route) {
